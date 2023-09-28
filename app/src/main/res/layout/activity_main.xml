@@ -18,7 +18,8 @@
             android:layout_height="215dp"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textSize="48sp" />
 
         <LinearLayout
             android:id="@+id/ButtonRow01"
@@ -172,7 +173,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn00Click"
-                android:text="0" />
+                android:text="@string/button_00" />
 
             <Button
                 android:id="@+id/btnDot"

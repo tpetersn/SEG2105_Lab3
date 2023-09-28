@@ -95,16 +95,12 @@ public class MainActivity extends AppCompatActivity {
         eText.setText("");
     }
     public void btnClearClick(View view){
-        optr = Operator.clear;
         EditText eText = (EditText) findViewById(R.id.resultEdit);
-        data1 = Double.parseDouble(eText.getText().toString());
         eText.setText("");
     }
     public void btnDotClick(View view){
-        optr = Operator.dot;
         EditText eText = (EditText) findViewById(R.id.resultEdit);
-        data1 = Double.parseDouble(eText.getText().toString());
-        eText.setText(".");
+        eText.setText(eText.getText() + ".");
     }
 
     public void btnResultClick(View view){
